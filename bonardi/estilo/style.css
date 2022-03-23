@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Bilbo';
+    src: url('../fontes/Melon Honey.otf') format('opentype');
+}
 
 * {
     margin: 0px;
@@ -8,6 +12,7 @@
 
 :root {
     --fonte-cabecalho: 'Caveat', cursive;
+    --fonte-terra-media: 'Bilbo', cursive;
 }
 
 body {
@@ -26,8 +31,40 @@ header {
 
 header > h1 {
     padding-top: 1.5em;
+    font-variant: small-caps;
 }
 
 main {
-    background-image: url('images/castelo.jpg');
+    height: 800px;
+    background-image: url('../gandal-and-bilbo.jpg');background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+main > div > p {
+    padding: 30px;
+    color: white;
+    font-family: var(--fonte-terra-media)
+}
+
+div.text {
+    display: inline-block;
+    margin: 20px;
+    background-color: rgba(51, 48, 48, 0.623);
+}
+
+img {
+    display: block;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
 }
