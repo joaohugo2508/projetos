@@ -53,10 +53,17 @@ div.text {
     background-color: rgba(51, 48, 48, 0.623);
 }
 
-img {
+div.anel {
+    position: relative;
+}
+
+div > img {
     display: block;
-    margin-top: 250px;
-    margin-left: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-70px, +300px);
 }
 
 footer {
