@@ -44,7 +44,8 @@ main {
 main > div > p {
     padding: 30px;
     color: white;
-    font-family: var(--fonte-terra-media)
+    font-family: var(--fonte-terra-media);
+    text-align: justify;
 }
 
 div.text {
