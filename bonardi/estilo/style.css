@@ -52,6 +52,7 @@ div.text {
     display: inline-block;
     margin: 20px;
     background-color: rgba(51, 48, 48, 0.623);
+    border-radius: 15px;
 }
 
 div.anel {
